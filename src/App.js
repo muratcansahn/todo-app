@@ -1,16 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Home from "./Components/Home";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>deneme</h1>
-      <div className="todo-form">
-        <input placeholder="Add Todo ..." />
-        <button>Add </button>
-      </div>
-    </div>
-  );
+  return <Home />;
 }
 
 export default App;
