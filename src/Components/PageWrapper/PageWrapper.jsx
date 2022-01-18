@@ -1,5 +1,8 @@
+import "./PageWrapper.scss";
 const PageWrapper = (props) => {
-  return <div className="text-center container my-4">{props.children}</div>;
+  return (
+    <div className="text-center page-wrapper container  ">{props.children}</div>
+  );
 };
 
 export default PageWrapper;
