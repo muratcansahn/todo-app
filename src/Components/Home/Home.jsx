@@ -1,8 +1,5 @@
 import { useState } from "react";
-import PageWrapper from "../PageWrapper";
-import Header from "../Header";
-import Form from "../Form";
-import TodoList from "../TodoList";
+import { PageWrapper, Header, Form, TodoList } from ".";
 
 const Home = () => {
   const [todos, setTodos] = useState([]);
